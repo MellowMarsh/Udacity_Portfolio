@@ -1,8 +1,19 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+ }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+ }
 .name{
   text-align: right;
   border style: none;
-  box-shadow: 5px 5px 5px  #a0abbc;
+  margin-left: 30%;
+  box-shadow: 1px 10px 5px 5px  #a0abbc;
   }
 #logo{
    float:left;
@@ -17,10 +28,10 @@
 
 .footer{
   border style: none;
-  box-shadow: 5px  #a0abbc;
   position: relative;
   margin-right: 5%;
   margin-left: 5%;
+  box-shadow: 10px 10px 10px 10px  #a0abbc;
 }
 img.a{
   border-radius: 50%;
