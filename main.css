@@ -16,7 +16,7 @@
   text-align: right;
   border-bottom: 2px #a0abbc;
   margin-left: 5%;
-  box-shadow: 1px 10px 5px 5px #a0abbc;
+  
   }
 #logo{
   float:left;
@@ -25,12 +25,11 @@
   top:10px;
 }
 .article{
-  text-align: center;
+ text-align: center;
 
 }
 .footer{
   border style: none;
-  box-shadow: 10px 10px 10px 10px #a0abbc;
   position: relative;
   margin-right: 27%;
   margin-left: 28%;
