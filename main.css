@@ -1,0 +1,59 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ }
+
+.header{
+  text-align: right;
+  border-bottom: 2px #a0abbc;
+  margin-left: 5%;
+  box-shadow: 1px 10px 5px 5px #a0abbc;
+  }
+#logo{
+  float:left;
+  margin:0 auto;
+  width: 100px;
+  top:10px;
+}
+.article{
+  text-align: center;
+
+}
+.footer{
+  border style: none;
+  box-shadow: 10px 10px 10px 10px #a0abbc;
+  position: relative;
+  margin-right: 27%;
+  margin-left: 28%;
+  vertical-align: middle;
+}
+img.a{
+  border-radius: 50%;
+}
+img.b{
+  border-radius: 50%;
+}
+img.c{
+  border-radius: 50%;
+}
+img.d{
+  border-radius: 50%;
+}
+img.e{
+  border-radius: 50%;
+}
+img.f{
+  border-radius: 50%;
+}
+img.g{
+  border-radius: 50%;
+}
