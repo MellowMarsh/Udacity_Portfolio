@@ -9,7 +9,7 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
  }
-.name{
+.header{
   text-align: right;
   border style: none;
   margin-left: 30%;
