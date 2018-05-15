@@ -1,5 +1,8 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+/* No media query necessary for xs devices this is the defaualt in bootstrap*/
+/* Extra small devices (phones, less than 576px) */
+@media (min-width: 576px){
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
  }
