@@ -1,0 +1,45 @@
+.container-fluid{
+  img { border-radius: 50%;}
+}
+.header{
+  text-align: right;
+  border-bottom: 2px #a0abbc;
+  margin-right: 2%;
+  margin-top: 5%;
+  }
+
+.article{
+ text-align: center;
+
+}
+.footer{
+  border style: none;
+  position: relative;
+  margin-right: 27%;
+  margin-left: 28%;
+  vertical-align: middle;
+}
+
+/* No media query necessary for xs devices this is the defaualt in bootstrap*/
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 576px){
+  .container-fluid{
+    font-size: 30px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .container-fluid{
+    font-size: 80px;
+  }
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+ }
