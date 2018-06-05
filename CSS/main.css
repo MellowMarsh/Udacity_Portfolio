@@ -1,60 +1,81 @@
-.container-fluid{
-  width: 100%;
+html {
+    font-family: sans-serif;
 }
 
-#logo{
-  width: 150px;
-  height: 100px;
-  margin-left: 2%;
-  max-height: 100%;
-
-}
-.header{
-  text-align: right;
-  margin-right: 2%;
-  margin-top: 5%;
-  }
-
-.article{
- text-align: center;
- vertical-align: middle;
- width: 100%;
-}
-.img-responsive{
-  max-width: 100%;
-  width: 100%;
+.container-fluid {
+    display: flex;
 }
 
+#logo {
+    width: 150px;
+    height: 100px;
+    margin-left: 2%;
+    max-height: 100%;
+}
 
-.footer{
-  border style: none;
-  position: relative;
-  margin-right: 27%;
-  margin-left: 28%;
-  vertical-align: middle;
+.header {
+    text-align: right;
+    box-shadow: 5px 5px 5px #a0abbc;
+}
+
+.article {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.footer {
+    text-align: center;
 }
 
 
 /* No media query necessary for xs devices this is the defaualt in bootstrap*/
+
+
 /* Extra small devices (phones, less than 576px) */
-@media (max-width: 576px){
-  .container-fluid{
-    font-size: 30px;
-  }
+
+@media screen and (max-width: 576px) {
+    .container-fluid {
+        font-size: 30px;
+    }
+    img {
+        max-width: 100%;
+    }
 }
+
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-  .container-fluid{
-    font-size: 80px;
-  }
 
- }
-
-/* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px) {
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        font-size: 80px;
+    }
+    img {
+        max-width: 100%;
+    }
 }
 
+
+/* Medium devices (desktops, 992px and up) */
+
+@media screen and (max-width: 992px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+
 /* Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
- }
+
+@media screen and (max-width: 1200px) {
+    img {
+        max-width: 100%;
+    }
+    .footer {
+        vertical-align: baseline;
+        align-items: center;
+    }
+}
+  
